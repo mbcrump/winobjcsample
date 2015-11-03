@@ -33,8 +33,8 @@
 - (void)sendErrorMessage
 {
     UIAlertView *alert = [[UIAlertView alloc]
-                      initWithTitle:@"Title"
-                      message:@"message"
+                      initWithTitle:@"Success"
+                      message:@"You've completed your first Obj-C to UWP App"
                       delegate:nil cancelButtonTitle:
                       @"OK"
                       otherButtonTitles:nil];
