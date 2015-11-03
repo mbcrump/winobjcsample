@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ios_test", "Ios_test", "{3E2E6A30-D9A5-4111-9E91-F0B562DE5A86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ios_test-Headers", "Ios_test.vsimporter\Ios_test-Headers-WinStore10\Ios_test-Headers.vcxitems", "{BF648F32-37CF-46F4-B1F9-C63C6F5B3536}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ios_test", "Ios_test.vsimporter\Ios_test-WinStore10\Ios_test.vcxproj", "{F9910814-1C99-44B9-8DF2-9C5B307EB29F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Ios_test.vsimporter\Ios_test-Headers-WinStore10\Ios_test-Headers.vcxitems*{BF648F32-37CF-46F4-B1F9-C63C6F5B3536}*SharedItemsImports = 9
+		Ios_test.vsimporter\Ios_test-Headers-WinStore10\Ios_test-Headers.vcxitems*{F9910814-1C99-44B9-8DF2-9C5B307EB29F}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Debug|Win32.Build.0 = Debug|Win32
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Debug|Win32.Deploy.0 = Debug|Win32
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Release|Win32.ActiveCfg = Release|Win32
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Release|Win32.Build.0 = Release|Win32
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F}.Release|Win32.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF648F32-37CF-46F4-B1F9-C63C6F5B3536} = {3E2E6A30-D9A5-4111-9E91-F0B562DE5A86}
+		{F9910814-1C99-44B9-8DF2-9C5B307EB29F} = {3E2E6A30-D9A5-4111-9E91-F0B562DE5A86}
+	EndGlobalSection
+EndGlobal

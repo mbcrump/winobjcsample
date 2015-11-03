@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ios_test">
+      <UniqueIdentifier>{FBABE879-82AA-4446-9E3D-18F05C028E0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Ios_test\AppDelegate.h">
+      <Filter>Ios_test</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\Ios_test\ViewController.h">
+      <Filter>Ios_test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{71ea6233-8847-49f1-af08-c6724bf7b28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{918e4e99-5885-49dd-9c6c-a05c736c2189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ios_test">
+      <UniqueIdentifier>{E34CD19A-F188-4779-BB88-E88C0629CB54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ios_test\Base">
+      <UniqueIdentifier>{231DF70B-F497-42F9-81E8-85EC2E2A78CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ios_test\Supporting Files">
+      <UniqueIdentifier>{F10D42A8-F12A-40FB-B719-9AD3F7FC51D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xcode Variable Files">
+      <UniqueIdentifier>{C9E98B61-1E9D-4424-9467-75F99B5EF652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClangCompile Include="..\..\Ios_test\ViewController.m">
+      <Filter>Ios_test</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Ios_test\AppDelegate.m">
+      <Filter>Ios_test</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\Ios_test\main.m">
+      <Filter>Ios_test\Supporting Files</Filter>
+    </ClangCompile>
+    <StoryboardCompile Include="..\..\Ios_test\Base.lproj\Main.storyboard">
+      <Filter>Ios_test\Base</Filter>
+    </StoryboardCompile>
+    <XibCompile Include="..\..\Ios_test\Base.lproj\LaunchScreen.xib">
+      <Filter>Ios_test\Base</Filter>
+    </XibCompile>
+    <AssetCatalogCompile Include="..\..\Ios_test\Images.xcassets">
+      <Filter>Ios_test</Filter>
+    </AssetCatalogCompile>
+    <SBInfoPlistCopy Include="..\..\Ios_test\Info.plist" />
+    <Text Include="Ios_test-Debug-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+    <Text Include="Ios_test-Release-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
